@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <label for="value" >Enter Your Number:</label>
+        <input type="number" id="value" name="value" placeholder="Enter Number">
+        <label for="from">From:</label>
+        <select id="from">
+            <option value="cm">CM</option>
+            <option value="m">M</option>
+            <option value="km">KM</option>
+        </select>
+        <label for="to" >To:</label>
+        <select id="to">
+            <option value="cm">CM</option>
+            <option value="m">M</option>
+            <option value="km">KM</option>
+        </select>
+        <div>
+            <button class="btn" onclick="convert()">Convert</button>
+        </div>
+        <label for="result">Result:</label>
+        <input type="text" id="result" disabled >
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>
